@@ -1,0 +1,24 @@
+name: CI
+on:
+  push:
+    branches: [ main, development ]
+  pull_request:
+    branches: [ main, development ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Instalar dependências
+        run: npm install
+
+      # Runs a set of commands using the runners shell
+      - name: Rodar os testes 
+        run: npm run test
+        
+      - name: Iniciar serviço
+        run: npm start
