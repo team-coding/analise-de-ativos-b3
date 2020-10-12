@@ -1,0 +1,51 @@
+{
+  "name": "b3_analysis",
+  "version": "0.0.1",
+  "description": "Stock exchange asset analysis system using machine learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:verbose": "jest --passWithNoTests --runInBand",
+    "test:live": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests --findRelatedTests",
+    "test:ci": "jest --passWithNoTests --silent --noStackTrace --runInBand --coverage",
+    "dev:server": "ts-node-dev --respawn --transpile-only src/infra/server/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-coding/analise-de-ativos-b3.git"
+  },
+  "keywords": [
+    "machine-learning",
+    "B3",
+    "Stocks",
+    "analisis",
+    "python",
+    "typescript"
+  ],
+  "author": "Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/team-coding/analise-de-ativos-b3/issues"
+  },
+  "homepage": "https://github.com/team-coding/analise-de-ativos-b3#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.8",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^3.0.0",
+    "husky": "^4.3.0",
+    "jest": "^26.5.3",
+    "lint-staged": "^10.4.0",
+    "ts-jest": "^26.4.1",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  }
+}
