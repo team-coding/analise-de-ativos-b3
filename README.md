@@ -8,7 +8,7 @@ Desenvolver uma solução para a análise de ativos da bolsa de valores (Ações
 
 #### A situação problema
 
-Atualmente não existe uma solução viável open source que avalia ativos da [B3](http://www.b3.com.br/pt_br/ "B3") em tempo real ou com delay de até 15 minutos dando sinais de compra ou venda de acordo com padrões identificados utilizando **machilen learning**.
+Atualmente não existe uma solução viável open source que avalia ativos da [B3](http://www.b3.com.br/pt_br/ "B3") em tempo real ou com delay de até 15 minutos dando sinais de compra ou venda de acordo com padrões identificados utilizando **machine learning**.
 
 [![Trade](./trade.png "Trade")](./trade.png "Trade")
 
