@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "prettier.printWidth": 140,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 1,
+    "vetur.format.defaultFormatter.ts": "prettier-tslint",
+    "editor.formatOnType": false,
+    "eslint.run": "onSave",
+    "editor.minimap.maxColumn": 140,
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.detectIndentation": false,
+    "editor.autoIndent": "full"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "@b3/shared",
+    "version": "0.0.1",
+    "description": "Shared dependencies, utils and helpers",
+    "main": "index.ts",
+    "author": "Alessandro Menezes",
+    "license": "MIT",
+    "private": false
+}

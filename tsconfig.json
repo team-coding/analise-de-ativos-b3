@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "packages",
+    "incremental": true,
+    "strict": true,
+    "declarationMap": true,
+    "moduleResolution": "Node",
+    "paths": {
+      "@backend/*": [
+        "backend/src/*"
+      ],
+      "@frontend/*": [
+        "frontend/src/*"
+      ],
+      "@shared/*": [
+        "shared/src/*"
+      ]
+    }
+  }
+}

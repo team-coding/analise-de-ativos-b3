@@ -1,0 +1,12 @@
+{
+    "name": "@b3/frontend",
+    "version": "0.0.1",
+    "description": "Frontend PWA application",
+    "main": "index.ts",
+    "author": "Alessandro Menezes",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "@b3/backend": "0.0.1"
+    }
+}
